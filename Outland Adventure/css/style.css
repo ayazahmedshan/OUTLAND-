@@ -1,0 +1,147 @@
+header{
+        background-image: url(../img/h22.jpg);
+        background-size: cover;
+        padding: 20px 0px 186px;
+        }  
+header .banner-content{
+    padding: 32px 0px 153px;
+    }
+header h3 {
+    padding: 50px 0px 23px;
+    font-style: italic;
+    color: #ffffffde;
+    font-family: auto;
+    font-weight: 600;
+ }
+
+header .banner-content span{     border: 1px solid;
+    color: red;
+    width: 13%;
+    display: block;
+    margin: auto; }
+header .banner-content h1{
+    padding: 24px 0px;
+    color: #fff0f0de;
+    font-family: auto;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    }
+
+header .banner-content a { padding: 11px 16px;
+    background: #ff205a;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 50px; }
+
+.navbar-brand h1 {font-size: 22.5px;font-weight: 700;}
+.navbar-brand h1 span {display: block;font-size: 17px;font-weight: 500;letter-spacing: 2px;}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px; } 
+
+.quote-section{padding: 50px 0px;background-color: #f9f4f4;text-align: center;}
+.quote.img{  }
+.quote img {
+    filter: opacity(0.5);
+    max-width: 100px;
+}
+.quote h2 {font-size: 18px;font-style: oblique;}
+.quote p {font-weight: 600;padding: 25px 0px;}
+
+
+.feature-section{padding: 100px 0px;text-align: center;}
+.heading h1{/* padding-bottom: 17px; */text-transform: uppercase;}
+.heading span {border: 1px solid;color: red;width: 13%;display: block;margin: auto;margin-bottom: 46px;}
+.holder img {border-radius: 10px;box-shadow: 6px 8px 5px 2px #a57f7e;}
+.holder h3 {text-transform: uppercase;padding: 25px 0px 15px;font-weight: 400;}
+.holder p {  }
+.holder a {text-decoration: none;color: #ff0000bf;font-weight: 400;letter-spacing: 1px;}
+.holder i {color: red;}
+
+.contact-section{background-image: url(../img/stayt.jpg);background-color: red;background-blend-mode: difference;}
+.content {text-align: center;
+    padding: 20px 0px;
+    color: #fff;
+}
+.content h1 {text-transform: uppercase;color: darkorchid;}
+.content p {font-weight: 500;color: brown;}
+.group{display: flex;justify-content: center;}
+.form-group {
+    margin: 10px 0px;
+}
+.from-control{padding: 10px 40px;background: transparent;color: #ffffff;border: 1px solid #fdfdfd;border-radius: 6px;}
+.textaaa{width:100%; padding: 10px 40px;background: transparent;color: #ffffff;border: 1px solid #f3f2f2;border-radius: 6px;}
+.btn-secondary {color: #fff;
+    background-color: #4b6c8a;
+    border-color: #9aa4ad;
+    width: 40%;
+    border-radius: 6px;}
+
+footer{
+    /* padding: 5px 0px; */
+    background-color: currentcolor;
+}
+footer .tf p{font-size: 14px;color: #ffff;margin: 0px;font-style: oblique;letter-spacing: 2px;padding-top: 15px;
+}}
+footer .ficon {}
+footer .ficon ul {display: flex;list-style: none;margin: 10px 0px;}
+footer .ficon li {padding: 0px 15px;font-size: 23px;}
+footer .ficon li a {background-color: #7db2c6;padding: 2px 15px;border: 1px;border-radius: 5px;}
+footer .ficon li a i {color: #fff;}
+
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;}
+
+
+@media ( max-width: 1199px) { header { padding: 20px 0px 150px; } header h3 {
+    padding: 30px 0px 23px;}
+
+@media ( max-width: 921px){ header .banner-content {
+    padding: 21px 0px 153px;} 
+
+ } header .banner-content a {
+    padding: 8px; } .quote-section {
+    padding: 20px 0px;} 
+
+    .feature-section {
+    padding: 50px 0px;} .holder h3{ font-size:  }
+}
+
+@media (max-width: 768px ) { header {  } 
+
+.container { max-width: 700px; } .img-fluid {
+    max-width: 70%;}
+
+
+footer .ficon ul { display: flex;
+justify-content: center; }
+footer .tf p { text-align: center; }
+}
+
+@media (max-width:575px ){ 
+
+    header .banner-content {
+    padding: 21px 0px 100px;} 
+    .quote img {
+    max-width: 60px; }
+    .quote p { padding: 0px;}
+.feature-section {
+    padding: 10px 0px;}
+
+@media ( max-width: 400px) { 
+.quote h2 {
+    font-size: 13px;}
+
+    .quote p {
+    font-size: 11px;
+ }
+.quote-section {
+    padding: 10px 0px;} 
+}
